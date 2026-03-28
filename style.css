@@ -1,0 +1,29 @@
+ .content-pad {
+justify-content: center;
+font-family: 'Times New Roman', Times, serif;
+width: 1500px;
+
+            }
+
+        #grad1 {
+  height: 200px;
+  background-color: red; /* For browsers that do not support gradients */
+  background-image: linear-gradient(to bottom, rgb(87, 87, 87), rgb(4, 9, 20));
+}
+
+.container {
+  display: flex;
+  flex-direction: row;
+  background-color: rgb(167, 171, 175);
+   padding-left: 230px;
+}
+
+.container div {
+  background-color: #000000;
+  width: 190px;
+  margin: 5px;
+  padding: 5px;
+  text-align: center;  
+  font-size: 10px;
+ 
+}
